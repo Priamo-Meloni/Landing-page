@@ -14,7 +14,7 @@ html,
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color:red;
+    
 }
 
 .text-vertical-center {
@@ -34,14 +34,14 @@ body {
 
 .btn-dark {
     border-radius: 0;
-    color: #fff;
+    color: red;
     background-color: rgba(0,0,0,0.4);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-    color: #fff;
+    color:red;
     background-color: rgba(0,0,0,0.7);
 }
 
@@ -104,7 +104,7 @@ hr.small {
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: red;
     background: rgba(255,255,255,0.2);
 }
 
@@ -124,7 +124,7 @@ hr.small {
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
+    color: red;
     background: none;
 }
 
