@@ -1,3 +1,4 @@
+
 /*!
  * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
@@ -7,14 +8,13 @@
 /* Global Styles */
 
 html,
- {
+body {
     width: 100%;
     height: 100%;
 }
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    
 }
 
 .text-vertical-center {
@@ -34,14 +34,14 @@ body {
 
 .btn-dark {
     border-radius: 0;
-    color: red;
+    color: #fff;
     background-color: rgba(0,0,0,0.4);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-    color:red;
+    color: #fff;
     background-color: rgba(0,0,0,0.7);
 }
 
@@ -104,7 +104,7 @@ hr.small {
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: red;
+    color: #fff;
     background: rgba(255,255,255,0.2);
 }
 
@@ -124,7 +124,7 @@ hr.small {
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: red;
+    color: #fff;
     background: none;
 }
 
@@ -154,9 +154,9 @@ hr.small {
 .header {
     display: table;
     position: relative;
-    width: 600;
-    height: 347;
-    background: url(../img/juve.jpg) no-repeat center center scroll;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
