@@ -154,8 +154,8 @@ hr.small {
 .header {
     display: table;
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 600;
+    height: 347;
     background: url(../img/juve.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
