@@ -7,12 +7,11 @@ class StupidTest extends \PHPUnit_Framework_TestCase
         $foo = true;
         $this->assertTrue($foo);
     }
-     public function testHTML()
-     {
-         $html = '<p id="my_id">ciao,Oao</p>';
-         $matcher = array('id'=> 'my_id');
-         $this->assertTag($matcher, $html);
-     }
+    public function testHTML(){
+    $htmlOutput='<p id="my_id">ciao</p>';
+    $matcher=array('id'=>'my_id');
+    $this>assertTag($matcher,$htmlOutput);    
+    }
 }
 
 
