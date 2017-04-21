@@ -1,17 +1,17 @@
 <?php
-namespace phpUnitTutorial\Test;
-class StupidTest extends \PHPUnit_Framework_TestCase
+
+namespace PHPUnit\Framework\Tests;
+
+use \PHPUnit\Framework\DOMTestCase;
+
+class IndexTest extends DOMTestCase
 {
-    public function testTrueIsTrue()
+
+    private $html;
+
+    protected function setUp()
     {
-        $foo = true;
-        $this->assertTrue($foo);
-    }
-    public function testHTML(){
-    $htmlOutput='<p id="my_id">ciao</p>';
-    $matcher=array('id'=>'my_id');
-    $this>assertTag($matcher,$htmlOutput);    
+        $this->html = file_get_contents('index.php');
     }
 }
-
 
