@@ -11,13 +11,13 @@ class IndexTest extends DOMTestCase
     public function testTagContent()
     {
         $selector = 'h1.title';
-        $content  = 'Test title text';
+        $content  = 'Stylish Portfolio - Start Bootstrap Theme';
         $this->assertSelectEquals($selector, $content, true, $this->html);
     }
     public function testClassContent()
     {
-        $selector = 'div.foo';
-        $content  = 'Test class text';
+        $selector = 'div.text-vertical-center';
+        $content  = '<h1>Vertically Centered Text</h1>';
         $this->assertSelectEquals($selector, $content, true, $this->html);
     }
     public function testCountList()
