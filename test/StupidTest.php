@@ -26,10 +26,4 @@ class IndexTest extends DOMTestCase
         $count    = 2;
         $this->assertSelectCount($selector, $count, $this->html);
     }
-    public function testRegExpContent()
-    {
-        $selector = 'div.bar';
-        $regexp   = '/Pierro/';
-        $this->assertSelectRegExp($selector, $regexp, true, $this->html);
-    }
 }
